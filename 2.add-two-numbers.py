@@ -3,13 +3,14 @@
 #
 # [2] Add Two Numbers
 #
-
+#
 # @lc code=start
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+#
 # Your runtime beats 8.43 % of python3 submissions.
 # Your memory usage beats 5.64 % of python3 submissions (16.4 MB).
 # Other ways to solve this problem is to use recursion or to use a stack
@@ -27,7 +28,6 @@ class Solution:
         # Reversing the list
         l1_reverse = l1_reverse[::-1]
         l1_reverse = ''.join(A(x) for x in l1_reverse)
-
 
         while l2:
             l2_reverse.append(l2.val)
@@ -50,10 +50,6 @@ class Solution:
             current.next = ListNode(value)
             current = current.next
 
-
-        return head
-
-        
+        return head     
         
 # @lc code=end
-

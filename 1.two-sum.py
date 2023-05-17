@@ -9,7 +9,6 @@
 # Your memory usage beats 5.7 % of python3 submissions (17.7 MB)
 # Other ideas could be to sort the list, then use two pointers to find the two numbers
 # Another idea is to use a hash table to store the numbers and their indices, then check if the target - nums[index] is in the hash table
-
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         

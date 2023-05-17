@@ -14,7 +14,6 @@
 # Your runtime beats 8.43 % of python3 submissions.
 # Your memory usage beats 5.64 % of python3 submissions (16.4 MB).
 # Other ways to solve this problem is to use recursion or to use a stack
-
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
 

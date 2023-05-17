@@ -3,8 +3,11 @@
 #
 # [13] Roman to Integer
 #
-
 # @lc code=start
+# Your runtime beats 31.26 % of python3 submissions
+# Your memory usage beats 13.06 % of python3 submissions (16.5 MB)
+# Another way to do this is to use a dictionary to store the roman numerals and their corresponding integer values. Then, loop through the string and add the values to a total variable
+
 class Solution:
     def romanToInt(self, s: str) -> int:
 
